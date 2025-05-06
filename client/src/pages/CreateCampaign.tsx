@@ -144,7 +144,7 @@ const CreateCampaign: React.FC = () => {
 
         <FormField
           labelName="Campaign Image URL *"
-          placeholder="https://..."
+          placeholder="Place image URL of your Campaign"
           inputType="url"
           value={form.image}
           handleChange={(e) => handleFormFieldChange("image", e)}
